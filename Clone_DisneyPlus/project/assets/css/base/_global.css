@@ -4,11 +4,12 @@ body{
 
 html{
      font-size: 62.5%;     
-     color: white;
-     font-size: 2 rem;
+     
+     font-size: 2rem;
 }
 
 .background-fixed{
+ 
      background: url('../../imgs/background.png') no-repeat;
      background-size: cover;
      position: fixed;
