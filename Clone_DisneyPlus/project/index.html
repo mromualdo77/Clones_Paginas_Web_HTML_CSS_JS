@@ -12,7 +12,7 @@
      </div>
 
      <div class="wrapper">
-          <header class="header">
+          <header class="header" data-header>
                <div class="logo">
                     <a class="logo__link" href="/" ></a>
                </div>
@@ -55,10 +55,10 @@
                               </a>
                          </li>
                          <li class="nav-menu__item dropdown">
-                              <a href="/" class="nav-menu__link">
+                              <a href="/" class="nav-menu__link" data-open-navsubmenu>
                                    <i class="fa-solid fa-ellipsis-vertical"></i>                            
                               </a>
-                              <ul class="nav-submenu">
+                              <ul class="nav-submenu" data-navsubmenu>
                                    <li class="nav-submenu__item mobile-hidden">
                                         <a href="/" class="nav-submenu__link">
                                              <i class="fa-solid fa-star"></i>
@@ -80,9 +80,9 @@
                               </ul>
                          </li>                     
                     </ul>
-                    <div class="user-menu">
+                    <div class="user-menu" data-usermenu>
                          <div class="user-menu__background  show-hover"></div>
-                         <div class="user-menu__current-profile">
+                         <div class="user-menu__current-profile" data-open-usermenu>
                               <div class="user-profile user-profile--reverse">
                                    <img src="./assets/imgs/avatarmaria2 (1).jpg" alt="" class="user-profile__avatar">
                                    <span class="user-profile__title">Maria Romualdo</span>
@@ -111,7 +111,7 @@
                                    </div>
                               </li>
                          </ul>
-                         <ul class="user-menu__options">
+                         <ul class="user-menu__options show-hover">
                               <li class="user-menu__item">
                                    <a href="/" class="user-menu__link">Editar Perfil</a>
                               </li>
@@ -130,7 +130,8 @@
                          </ul>
                     </div>
                </nav>
-          </header>
+          </header>         
      </div>  
+     <script type="module"  src="./assets/js/main.js"></script>
 </body>
 </html>

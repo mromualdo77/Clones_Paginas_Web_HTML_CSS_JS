@@ -20,11 +20,11 @@
      padding: 1.2rem  2rem ;
 }
 
-.user-menu__profiles .user-menu__item{
+.user-menu__profiles  .user-menu__item{
      padding: 0.7rem 0 ;
 }
 
-.user-menu__options .user-menu__link{
+.user-menu__options  .user-menu__link{
      color: #c3c3c3;
      display: inline-block;
      font-size: 1.5rem;
@@ -56,12 +56,17 @@
 .user-menu__options {
      animation: showFade .3s;
 }
-.user-menu .show-hover{
+.user-menu  .show-hover{
      display: none;
 }
 
 .user-menu:hover  .show-hover, 
 .user-menu:hover  .user-profile_title{   
+     display: block;
+}
+
+.user-menu.active .show-hover,
+.user-menu.active .user-profile__title{
      display: block;
 }
 
