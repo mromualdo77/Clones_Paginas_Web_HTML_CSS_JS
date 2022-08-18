@@ -3,8 +3,7 @@
 .user-profile{
      align-items: center;     
      cursor: pointer;
-     display: flex;
- 
+     display: flex; 
 }
 
 .user-profile--reverse{

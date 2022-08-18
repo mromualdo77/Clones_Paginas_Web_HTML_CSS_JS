@@ -1,11 +1,12 @@
+html{
+     font-size: 62.5%;    
+}
+
 body{
      font-family: 'Roboto', sans-serif;
      color: white;    
 }
 
-html{
-     font-size: 62.5%;    
-}
 
 .background-fixed{ 
      background: url('../../imgs/background.png') no-repeat;
