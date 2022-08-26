@@ -116,7 +116,7 @@ function onMouseUp (event) {
      const movementQtd = event.type.includes('touch') ? 50 : 150
      if(state.movementPosition > movementQtd) {
           backwardSlide()
-     }else if(state.movementPosition < movementQtd) {
+     }else if(state.movementPosition < -movementQtd) {
           forwardSlide()
      }else{
           setVisibleSlide(state.currentSlideIndex)
@@ -152,11 +152,6 @@ function onResizeWindow() {
      setVisibleSlide(state.currentSlideIndex)
 }
 
-
-
-
-
-
 function setListeners() {
      btnNext.addEventListener('click', forwardSlide)
      btnPrevious.addEventListener('click', backwardSlide)
@@ -181,9 +176,9 @@ function setListeners() {
 
 
      let resizeTimeOut;
-     window.addEventListener('resine', function(event) {
+     window.addEventListener('resize', function(event) {
           clearTimeout(resizeTimeOut)
-          resizeTimeOut = setTimeout(function() {
+          resizeTimeOut = setTimeout (function() {
                onResizeWindow()
           },1000)
      })
@@ -193,10 +188,6 @@ function init(){
      setVisibleSlide(2)
      setListeners()
 }
-
-return {
-     init()
- }
 
 
 export default bannerSliderModule
