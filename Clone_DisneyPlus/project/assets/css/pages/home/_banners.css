@@ -2,6 +2,7 @@
      align-items: center ;
      display: flex;
      padding-top: 9.7rem;
+     position: relative;
      overflow: hidden;
 }
 
@@ -14,7 +15,12 @@
      flex-shrink: 0;
      padding:0 1rem  3rem;
      position: relative;
-     width: 90vw;
+     width: 91vw;
+}
+
+.banner-slider__link{
+     display: block;
+     position: relative;
 }
 
 .banner-slider__link::before{
@@ -27,10 +33,6 @@
 
 }
 
-.banner-slider__link{
-     display: block;
-     position: relative;
-}
 
 .banner-slider__link:hover::before {
      border-color:  rgba(255, 255, 255, 0.7);

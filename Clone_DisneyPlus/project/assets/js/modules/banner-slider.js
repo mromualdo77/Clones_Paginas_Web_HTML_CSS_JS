@@ -1,3 +1,4 @@
+const bannerSliderModule = () => {
 const sliderItems = document.querySelectorAll('[data-banner="item"]')
 const slider = document.querySelector('[dat-banner="slider"]')
 const btnNext = document.querySelector('[data-banner="btn-next"]')
@@ -19,7 +20,7 @@ function translateSlide(position) {
 
 function getCenterPosition(index) {
      const slide = sliderItems[index]
-     const margin = (document.body.clientWidth - slide.offsetWidth) /2
+     const margin = (document.body.clientWidth - slide.offsetWidth) / 2
      const centerPosition = margin - (slide.offsetWidth * index)
      return centerPosition
 }
@@ -173,8 +174,6 @@ function setListeners() {
           slide.addEventListener('touchend', onTouchEnd)
      })
 
-
-
      let resizeTimeOut;
      window.addEventListener('resize', function(event) {
           clearTimeout(resizeTimeOut)
@@ -184,10 +183,14 @@ function setListeners() {
      })
 }
 
-function init(){
+function init() {
      setVisibleSlide(2)
      setListeners()
+ }
+ 
+ return {
+     init
+ }
 }
-
 
 export default bannerSliderModule
