@@ -1,8 +1,8 @@
 const bannerSliderModule = () => {
 const sliderItems = document.querySelectorAll('[data-banner="item"]')
-const slider = document.querySelector('[dat-banner="slider"]')
+const slider = document.querySelector('[data-banner="slider"]')
 const btnNext = document.querySelector('[data-banner="btn-next"]')
-const btnPrevious = document.querySelector('[data-banner= "btn-previous"]')
+const btnPrevious = document.querySelector('[data-banner="btn-previous"]')
 const btnControls = document.querySelectorAll('[data-banner="btn-control"]')
 const imgTitles = document.querySelectorAll('[data-banner="img-title"]')
 const state = {

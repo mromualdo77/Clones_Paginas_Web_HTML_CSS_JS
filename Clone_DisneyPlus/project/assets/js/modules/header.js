@@ -33,9 +33,6 @@ function init() {
      setListeners()
 }
 
-return {
-     init
-}
-}
+
 
 export default headerModule
