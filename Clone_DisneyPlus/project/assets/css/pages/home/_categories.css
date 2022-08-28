@@ -12,6 +12,7 @@
 
 .category-menu__item{  
     position: relative; 
+    transition: transform .3s
      
 }
 
@@ -43,13 +44,15 @@
      width: 100%;
 }
 
-.category-menu__img{
-     width: 100%;
-}
 
 .category-menu__item:hover  .category-menu__video{
      display: block;
 }
+
+.category-menu__img{
+     width: 100%;
+}
+
 
 @media screen  and (max-windth: 1024px) {
      .category-menu__link{
