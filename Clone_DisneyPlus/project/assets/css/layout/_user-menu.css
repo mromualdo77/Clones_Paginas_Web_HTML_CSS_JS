@@ -34,7 +34,7 @@
 .user-menu__profiles{
      margin-left: 2rem;
      margin-right: 2rem;
-     padding: .9rem;
+     padding-top: .9rem;
      border-top: 1px solid #393939;
 }
 
@@ -71,7 +71,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-     .user-menu .user-profile_title{
+     .user-menu .user-profile__title{
           display: none;
      }
   

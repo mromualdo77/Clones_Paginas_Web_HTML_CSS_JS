@@ -6,7 +6,7 @@
 }
 .category-menu{
      display: grid;
-     grid-template-columns: 20%  20% 20% 20% 20%;
+     grid-template-columns: repeat(5,1fr);
      gap: 2rem;
 }
 
@@ -33,7 +33,7 @@
 
 .category-menu__link:hover{
      background: none;
-     border-color: #dfdfe2;
+     border-color: rgb(235,235,235);
 }
 
 .category-menu__video{

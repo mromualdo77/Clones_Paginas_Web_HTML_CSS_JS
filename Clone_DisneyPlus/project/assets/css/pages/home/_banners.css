@@ -13,7 +13,7 @@
 
 .banner-slider__item{
      flex-shrink: 0;
-     opacity: 0.5;
+     opacity: .5;
      padding:0 1rem  3rem;
      position: relative;
      width: 91vw;
@@ -47,6 +47,15 @@
      border-radius: .5rem;
      box-shadow: black 0rem 2rem 3rem -2rem;
      display: block;
+     width: 100%;
+}
+
+.banner-slider__title {
+     animation: slideLeft 1s;
+     left: 0;
+     display: none;
+     position: absolute;
+     top: 0;
      width: 100%;
 }
 
