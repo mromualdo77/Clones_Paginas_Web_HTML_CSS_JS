@@ -1,14 +1,14 @@
-html{
-     font-size: 62.5%;    
+html {
+     font-size: 62.5%;
 }
 
-body{
+body {
      font-family: 'Roboto', sans-serif;
-     color: white;    
+     color: white;
 }
 
 
-.background-fixed{ 
+.background-fixed {
      background: url('../../imgs/background.png') no-repeat;
      background-size: cover;
      position: fixed;
@@ -17,8 +17,7 @@ body{
      z-index: 1;
 }
 
-.wrapper{
+.wrapper {
      position: relative;
      z-index: 2;
 }
- 

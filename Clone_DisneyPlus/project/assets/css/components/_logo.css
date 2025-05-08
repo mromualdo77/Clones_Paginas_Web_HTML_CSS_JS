@@ -1,4 +1,4 @@
-.logo__link{
+.logo__link {
      background: url('../../imgs/logo.svg') no-repeat;
      background-position: center;
      background-size: 105%;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 1024px) {
-     .logo__link{
+     .logo__link {
           height: 3.2rem;
           width: 5.9rem;
      }

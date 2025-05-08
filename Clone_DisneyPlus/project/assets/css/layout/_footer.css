@@ -18,7 +18,7 @@
      color: #AFAFAF;
 }
 
-.footer__about{
+.footer__about {
      line-height: 1.5;
      margin: 0 1.8rem 1.5rem;
 }
@@ -28,21 +28,21 @@
      flex-wrap: wrap;
 }
 
-.footer-menu__item{
+.footer-menu__item {
      margin: 1.5rem 0;
 }
 
-.footer-menu__link{
+.footer-menu__link {
      padding: 0 1rem;
      transition: color .3s;
 }
 
-.footer-menu__link:hover{
+.footer-menu__link:hover {
      color: #fff;
 }
 
-@media screen and (max-width: 1024px){
-     .footer{
+@media screen and (max-width: 1024px) {
+     .footer {
           padding-left: 3rem;
           padding-right: 3rem;
      }
